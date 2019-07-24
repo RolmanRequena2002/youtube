@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>REQUENA</title>
+	<script src="lib/jQuery/jquery.js"></script>
+	<link rel="icon" href="img/">
+	<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid cent">
+		<div class="row">
+			<div class="col-md-2">
+				<br>
+				<img class="imm" src="img/i1.png">
+				<br>
+			</div>
+			<div class="col-md-8">
+				<br><br>
+				<form id="search-term">
+				<input class="bll" type="text" value="" placeholder="buscar" size="30" id="query">
+				<button class="bs" type="submit">BUSCAR</button>
+				</form>
+				<br>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+		<div class="row bll">
+			<div class="col-md-4"><br></div>
+			<div class="col-md-4">
+				<br>
+				<div id="search-results">
+				<br>
+				<p class="bbl">Al iniciar la busqueda la api mostrará 10 resulatados por lo cumún los más relevantes, tambien puedes buscar sin escribir nada y te mostrara los videos con más reproducciones.</p>
+			</div>
+			<div class="col-md-4"></div>
+		</div>
+	</div>
+
+	<script src="lib/bootstrap/js/bootstrap.js"></script>
+	<script src="lib/angular/angular.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
